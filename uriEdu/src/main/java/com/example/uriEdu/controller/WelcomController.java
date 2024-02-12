@@ -12,8 +12,8 @@ public class WelcomController {
 		return "home";
 	}
 	
-	@GetMapping("/homeWelcome")
+	@GetMapping("/index")
 	public String home(Model model) throws Exception {
-		return "thymeleaf/homeWelcome";
+		return "thymeleaf/index";
 	}
 }
