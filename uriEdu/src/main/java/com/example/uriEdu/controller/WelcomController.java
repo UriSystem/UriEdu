@@ -12,8 +12,8 @@ public class WelcomController {
 		return "home";
 	}
 	
-	@GetMapping("/homeTime")
+	@GetMapping("/homeWelcome")
 	public String home(Model model) throws Exception {
-		return "thymeleaf/homeTime";
+		return "thymeleaf/homeWelcome";
 	}
 }
